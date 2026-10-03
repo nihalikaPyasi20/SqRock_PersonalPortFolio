@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihalika Pyasi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--To stablish connection from google fonts for fast font loading-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--for actual connection with server of google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet"><!-- for different type of fonts for body-text and heading DM sans & Fraunces -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation bar-->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#home">NP</a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!--Links to visit each section-->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text reveal">
+                <p class="eyebrow">CSE Student | Aspiring Software Developer</p>
+                <h1>Hi, I'm Nihalika Pyasi</h1>
+                <p class="hero-lead">
+                    Computer Science Engineering student at Jabalpur Engineering College.
+                    I enjoy learning web development and Data Structures &amp; Algorithms,
+                    and I am building my way toward becoming a skilled software developer.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects">View Projects</a>
+                    <a class="btn btn-outline" href="#contact">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-card reveal">
+                <!-- PLACEHOLDER:We can Replace this initials block with our photo.-->
+                    
+                <div class="avatar" aria-hidden="true">NP</div>
+                <p class="avatar-caption">Learning Web Development · DSA Enthusiast</p>
+            </div>
+        </section>
+
+         <!-- About Section-->
+        <section id="about" class="section">
+            <div class="section-heading reveal">
+                <p class="eyebrow">About Me</p>
+                <h2>A little more about my journey</h2>
+            </div>
+            <div class="about-grid">
+                <article class="card reveal">
+                    <h3>Brief Introduction</h3>
+                    <p>
+                        Hello! I'm Nihalika Pyasi, a Computer Science Engineering student
+                        with a passion for technology and problem solving. I enjoy learning
+                        web development and Data Structures &amp; Algorithms.Currently, I am expanding my skills by learning React.js and Python.
+                        & I'm always eager to improve my skills by working on projects and exploring new technologies.
+                        My goal is to become a skilled software developer.
+                    </p>
+                </article>
+                <article class="card reveal">
+                    <h3>Career Objective</h3>
+                    <p>
+                        To build a successful career as a software developer by continuously
+                        improving my programming, DSA, and web development skills while
+                        contributing to innovative projects.
+                    </p>
+                    <ul class="info-list">
+                        <li><span>College</span> Jabalpur Engineering College, Jabalpur</li>
+                        <li><span>Degree</span> B.Tech (Computer Science &amp; Engineering)</li>
+                        <li><span>Year</span> 3rd Year</li>
+                        <li><span>CGPA</span> 8.5 / 10</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills section-->
+        <section id="skills" class="section">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Skills</p>
+                <h2>What I am learning and practicing</h2>
+            </div>
+            <div class="skills-grid">
+                <article class="card reveal">
+                    <h3>Technical Skills</h3>
+                    <ul class="chip-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Frontend Development</li>
+                        <li>Data Structures &amp; Algorithms</li>
+                        <li>Git/Github</li>
+                    </ul>
+                </article>
+                <article class="card reveal">
+                    <h3>Currently Learning</h3>
+                    <ul class="chip-list  chip-list-soft">
+                        <li>Python</li>
+                        <li>React.js</li>
+                    </ul>
+                </article>
+                <article class="card reveal">
+                    <h3>Soft Skills</h3>
+                    <ul class="chip-list ">
+                        <li>Problem Solving</li>
+                        <li>Quick Learner</li>
+                        <li>Teamwork</li>
+                        <li>Adaptability</li>
+                        <li>Communication</li>
+                        <li>Time Management</li>
+                    </ul>
+                </article>
+                <article class="card reveal">
+                    <h3>Relevant Coursework</h3>
+                    <ul class="chip-list chip-list-soft">
+                        <li>Data Structures &amp; Algorithms</li>
+                        <li>Web Development</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Project Section-->
+        <section id="projects" class="section">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Projects</p>
+                <h2>Selected work</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <p class="project-tag">Web</p>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive personal portfolio built with HTML, CSS, and JavaScript
+                        to showcase skills, projects, resume, and contact details.
+                    </p>
+                    <!-- PLACEHOLDER: Add your live / GitHub link -->
+                    <a class="text-link" href="#home">View project</a>
+                </article>
+                <article class="project-card reveal">
+                    <p class="project-tag">WEB</p>
+                    <h3>Currency Convertor</h3>
+                    <p>
+                     
+                       A responsive currency converter web application built using **HTML, CSS, and JavaScript**.
+                       It fetches real-time exchange rates through an API and allows users to convert amounts between different currencies with dynamic currency selection and country flags.
+  
+                    </p>
+                   <a class="text-link"
+                    href="https://nihalikapyasi20.github.io/Currency_Convertor/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                     Click to see project
+                     </a>
+                      </article>
+                <article class="project-card reveal">
+                    <p class="project-tag">GAME</p>
+                    <h3>Stone Paper Scissors</h3>
+                    <p>
+                    An interactive Stone Paper Scissors game built using HTML, CSS, and JavaScript.
+                    The game all ows users to play against the computer with random computer choices,
+                    automatic winner calculation, and dynamic score updates.
+                    </p>
+                    
+                    <a class="text-link" href=" https://nihalikapyasi20.github.io/Stone-Paper-Scissors/">Click to see project</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- To show education details certificates achievements and get resume-->
+        <section id="resume" class="section">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Resume</p>
+                <h2>Education, certificates and achievements</h2>
+            </div>
+            <div class="resume-layout">
+                <article class="card reveal">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>B.Tech — Computer Science &amp; Engineering</h4>
+                            <p>Jabalpur Engineering College, Jabalpur · 3rd Year · CGPA 8.5/10</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>School</h4>
+                            <p>Malhar Aashram, Indore, Madhya Pradesh</p>
+                        </div>
+                    </div>
+                   
+                    <a class="btn btn-primary resume-btn" href="resume.pdf" download>Download Resume</a>
+                    <p class="hint">Add a file named <code>resume.pdf</code> in this folder so the download works.</p>
+                </article>
+                <div class="resume-side">
+                    <!-- Wecan add certificates here-->
+                    <!-- <article class="card reveal"> -->
+                        <!-- <h3>Certificates</h3>
+                        <ul class="link-list">
+                           
+                            <li><a href="#">Certificate of Internship at DRDO</a></li>
+                            <li><a href="#">Certificate of Internship at Flipkart</a></li>
+                            <li><a href="#">Certificate of AIML course completion</a></li>
+                        </ul> --> 
+                    <!-- </article> -->
+                    <article class="card reveal">
+                        <h3>Achievements</h3>
+                        <ul class="plain-list">
+                            <li>Learning Data Structures &amp; Algorithms</li>
+                            <li>Consistently improving my coding skills</li>
+                            <li>Building web development projects</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact details-->
+        <section id="contact" class="section">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Contact</p>
+                <h2>Let's connect</h2>
+            </div>
+            <div class="contact-grid">
+                <article class="card reveal">
+                    <h3>Contact Information</h3>
+                    <ul class="info-list">
+                        <li><span>Email</span> <a href="mailto:archanapyasi23@gmail.com">nihalikapyasi@26gmail.com</a></li>
+                        <li><span>Phone</span> <a href="tel:+919343276288">+91 9343276288</a></li>
+                        <li><span>Location</span> Krishna Bihar Colony, Near workshop office, Sihora, Jabalpur</li>
+                    </ul>
+                    <div class="socials">
+                       
+                        <a href="https://github.com/nihalikaPyasi20" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/nihalika-pyasi-555020331/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://leetcode.com/u/Nihalikaaa18/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+                    </div>
+                </article>
+                <form class="card contact-form reveal" id="contact-form">
+                    <h3>Send a message</h3>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Your email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+                    <button class="btn btn-primary" type="submit">Send Message</button>
+                    <p class="form-status" id="form-status" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Thanks for connecting.</p>
+        <p>&copy; <span id="year"></span> Nihalika Pyasi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
